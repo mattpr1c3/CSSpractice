@@ -1,8 +1,27 @@
-h1 {
+h1{
     color:blue
 }
 
-.whatever {
+.whatever{
     color:orange;
     font-size:25px;
+}
+
+#para{
+    color:magenta;
+    font-size:25px;
+    padding:0%auto;
+    border:10px solid black;
+    margin:5px;
+}
+
+.list{
+    padding:5em;
+    border:2em dotted olivedrab;
+    margin:5em;
+
+}
+
+.item::marker{
+    color:cornflowerblue;
 }
